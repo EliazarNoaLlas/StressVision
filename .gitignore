@@ -1,0 +1,106 @@
+# =============================
+# General
+# =============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# =============================
+# Environment & Credentials
+# =============================
+.env
+.env.*
+*.env
+*.ini
+*.cfg
+*.toml
+config.json
+secrets.json
+credentials.json
+
+# =============================
+# IDEs & Editors
+# =============================
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# =============================
+# Streamlit
+# =============================
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# =============================
+# OS Specific
+# =============================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================
+# TensorFlow / Deep Learning
+# =============================
+checkpoints/
+logs/
+saved_models/
+models/
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.ckpt
+*.weights
