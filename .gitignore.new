@@ -1,0 +1,219 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database files (excepto schema)
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+!database/schema.sql
+
+# Logs
+logs/**/*
+!logs/**/.gitkeep
+*.log
+backend/logs/**/*
+!backend/logs/.gitkeep
+edge/logs/**/*
+!edge/logs/.gitkeep
+
+# Modelos entrenados (archivos grandes)
+models/trained/*.h5
+models/trained/*.tflite
+models/trained/*.pb
+models/trained/saved_model/
+models/pretrained/*.h5
+models/pretrained/*.pth
+!models/trained/.gitkeep
+!models/trained/model_metadata.json
+
+# Datos sensibles y privados
+data/raw/**/*
+!data/raw/.gitkeep
+data/processed/**/*
+!data/processed/.gitkeep
+data/embeddings/**/*
+!data/embeddings/.gitkeep
+data/exports/**/*
+!data/exports/.gitkeep
+
+# Enrollment data (PRIVACIDAD - fotos y embeddings de empleados)
+enrollment/data/enrollments/*.jpg
+enrollment/data/enrollments/*.jpeg
+enrollment/data/enrollments/*.png
+enrollment/data/enrollments/*.json
+enrollment/data/*.csv
+!enrollment/data/enrollments/.gitkeep
+
+# Reportes generados
+reporting/outputs/**/*
+!reporting/outputs/**/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+.hypothesis/
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Backups
+backup_*/
+*.backup
+*.bak
+*.old
+
+# Temporal files
+tmp/
+temp/
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+site/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Secrets
+*.pem
+*.key
+*.cert
+*.crt
+secrets/
+.secrets/
+
+# Large files que no deberían estar en git
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.wmv
+*.zip
+*.tar.gz
+*.rar
+
+# Node modules (si se agrega frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Configuraciones locales
+config/local.yaml
+config/*.local.yaml
+*.local.py
+
+# Archivos de migración temporal
+ESTRUCTURA_PROPUESTA.md
+MIGRACION_ESTRUCTURA.sh
+GUIA_ACTUALIZACION_IMPORTS.md
+check_imports.py
+.gitignore.new
+
+# Mantener estos en el repo para referencia
+!ESTRUCTURA_PROPUESTA.md
+!GUIA_ACTUALIZACION_IMPORTS.md
+!check_imports.py
+
+

@@ -104,3 +104,42 @@ models/
 *.tflite
 *.ckpt
 *.weights
+
+# =============================
+# Stress Vision Specific
+# =============================
+# Base de datos (contiene datos sensibles)
+gloria_stress_system.db
+gloria_stress_system.db-wal
+gloria_stress_system.db-shm
+*.db
+*.sqlite
+*.sqlite3
+
+# Enrollments (datos biométricos sensibles)
+enrollments/
+employee_photos/
+*.embedding.json
+
+# Imágenes de muestra
+*_sample_*.jpg
+*_sample_*.png
+
+# Face recognition models cache
+.face_recognition_models/
+face_recognition_models/
+
+# DeepFace weights cache
+.deepface/
+deepface_home/
+
+# Reports generados
+reports/
+exports/
+*.csv
+*.pdf
+
+# Logs del sistema
+system.log
+errors.log
+detections.log
